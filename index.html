@@ -122,6 +122,11 @@
       .phone iframe { width: 100%; height: 100%; border: 0; border-radius: 20px; background: #000; display: block; }
       .sample-note { text-align: center; color: var(--ink-3); font-size: 13px; line-height: 1.55; margin-top: 16px; max-width: 330px; }
 
+      /* ---------- More samples ---------- */
+      .samples-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; max-width: 780px; margin: 44px auto 0; }
+      .sample-item { display: grid; justify-items: center; }
+      .sample-label { font-family: "Archivo", sans-serif; font-weight: 600; font-size: 16.5px; letter-spacing: -0.01em; text-align: center; margin-top: 18px; max-width: 340px; }
+
       /* ---------- Sections ---------- */
       section { padding: 88px 0; }
       section + section { border-top: 1px solid var(--line-soft); }
@@ -218,6 +223,7 @@
         .hero { padding: 56px 0 60px; }
         .hero-grid { grid-template-columns: 1fr; gap: 44px; }
         .grid-3, .steps { grid-template-columns: 1fr; }
+        .samples-grid { grid-template-columns: 1fr; gap: 44px; }
         section { padding: 60px 0; }
         .topnav a.navlink { display: none; }
         .footer-grid { grid-template-columns: 1fr; gap: 32px; }
@@ -277,6 +283,30 @@
     </header>
 
     <main>
+      <section id="samples">
+        <div class="wrap">
+          <span class="kicker">Portfolio</span>
+          <h2>More samples</h2>
+          <p class="section-sub">Further examples of our editing, across the niches we work in most.</p>
+          <div class="samples-grid">
+            <div class="sample-item">
+              <div class="phone">
+                <iframe src="https://drive.google.com/file/d/1MWXxkm2C0y6G1Xp8L47jK7jTxvHiv8fU/preview" title="ClipKaro sample Short — Hindi motivational story for Kahani Junction" allow="autoplay; fullscreen" allowfullscreen loading="lazy"></iframe>
+              </div>
+              <p class="sample-label">Sample: Hindi Motivational Story — made for Kahani Junction (30K subs)</p>
+              <p class="sample-note">A 32.7-second demonstration edit showing our storytelling style for Hindi motivational content.</p>
+            </div>
+            <div class="sample-item">
+              <div class="phone">
+                <iframe src="https://drive.google.com/file/d/1g6nBpoaXVHxSpdYSKEHsLCVmTXeWSZUh/preview" title="ClipKaro sample Short — Hindi horror story for Mr. X Horror" allow="autoplay; fullscreen" allowfullscreen loading="lazy"></iframe>
+              </div>
+              <p class="sample-label">Sample: Hindi Horror Story — made for Mr. X Horror (160K subs)</p>
+              <p class="sample-note">A 29.5-second demonstration edit showing our horror narration style for Hindi horror content.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="included">
         <div class="wrap">
           <span class="kicker">Services</span>
